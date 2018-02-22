@@ -17,8 +17,7 @@ install:
     - pip install -U platformio
     - platformio update
 
-#script:
+script:
+    - platformio ci
 #    - platformio ci --project-conf=1/platformio.ini
-#    - platformio ci --project-conf=2/platformio.ini
-#    - platformio ci --project-conf=3/platformio.ini
     
