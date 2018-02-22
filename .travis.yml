@@ -19,4 +19,5 @@ install:
 
 script:
     - platformio ci --project-conf=${PLATFORMIO_CI_SRC}/platformio.ini
+    - platformio test --project-conf=${PLATFORMIO_CI_SRC}/platformio.ini
     
