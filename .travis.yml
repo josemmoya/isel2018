@@ -8,10 +8,10 @@ cache:
     directories:
         - "~/.platformio"
 
-env:
-    - PLATFORMIO_CI_SRC=1
-    - PLATFORMIO_CI_SRC=2
-    - PLATFORMIO_CI_SRC=3
+# env:
+#     - PLATFORMIO_CI_SRC=1
+#     - PLATFORMIO_CI_SRC=2
+#     - PLATFORMIO_CI_SRC=3
 
 install:
     - pip install -U platformio
