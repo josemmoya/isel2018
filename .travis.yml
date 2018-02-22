@@ -18,6 +18,6 @@ install:
     - platformio update
 
 script:
-    - platformio ci
+    - platformio run -e d1_mini
 #    - platformio ci --project-conf=1/platformio.ini
     
